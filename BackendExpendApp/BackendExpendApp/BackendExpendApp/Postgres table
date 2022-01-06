@@ -1,0 +1,35 @@
+Table1:
+create table users_info(
+userId int generated always as identity primary key,
+firstname varchar(20), 
+lastname varchar(20),
+email varchar(20), 
+username varchar(20),
+password varchar(20),
+accessLevel varchar(20), 
+userRemoved boolean
+);
+CREATE TABLE
+
+insert into users_info(firstname, lastname, email, username, password, accessLevel, userRemoved)
+values ('jamal', 'khan', 'jk@gmail.com', 'jkhan', 'khan', 'manager', 'false');
+
+insert into users_info(firstname, lastname, email, username, password, accessLevel, userRemoved)
+values ('gloria', 'johnston', 'gj@gmail.com', 'gjhonston', 'gjohnston', 'manager', 'false');
+
+Table2:
+create table reimbursement_info(
+reimId int generated always as identity primary key,
+reimbDate date, 
+reimbReason varchar(20), 
+reimbAmount float, 
+reimbStatus varchar(20), 
+reimbRemoved boolean
+);
+
+ insert into reimbursement_info(reimbDate, reimbReason, reimbAmount, reimbStatus, reimbRemoved)
+ values ('2020-10-10', 'travel expense', 900.9, 'approved', 'false');
+ 
+ 
+
+
