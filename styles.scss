@@ -1,0 +1,21 @@
+@import "./assets/scss/app.scss";
+@import "~ngx-toastr/toastr";
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.tblButton {
+  text-align: right !important;
+}
+
+.table_button_clr {
+  background-color: #99c9b3 !important;
+  height: 35px !important;
+}
