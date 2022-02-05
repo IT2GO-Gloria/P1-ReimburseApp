@@ -1,4 +1,5 @@
-# Project One - Reimbursement App (Jamal Khan and Gloria Johnston)
+# Project One - Reimbursement App 
+### Coded By: Jamal Khan and Gloria Johnston
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.5.
 
