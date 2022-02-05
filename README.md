@@ -1,4 +1,7 @@
-# Project One - Reimbursement App 
+# Project One - Reimbursement App
+
+### This is a basic reimbursement app.
+### An employee can submit a request, a manager can accept/reject the request.
 ### Coded By: Jamal Khan and Gloria Johnston
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.5.
